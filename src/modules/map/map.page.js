@@ -9,10 +9,9 @@ const HorizontalButtonsWrapper = styled.section`
     align-items: center;
   `;
 
-export default function SearchPage() {
+export default function MapPage() {
   return (
     <HorizontalButtonsWrapper>
-      <Button primary> and hello</Button>
-      <Button primary> and hello</Button>
+      <Button primary>Im a map</Button>
     </HorizontalButtonsWrapper>);
 }

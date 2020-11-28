@@ -7,14 +7,15 @@ import {
 } from 'react-router-dom';
 import SearchPage from './modules/search/search.page';
 import ContainersPage from './modules/containers/containers.page';
+import MapPage from './modules/map/map.page';
 
 // eslint-disable-next-line require-jsdoc
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/containers">
-          <ContainersPage />
+        <Route path="/map">
+          <MapPage />
         </Route>
 
         <Route path="/">

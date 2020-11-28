@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "re-ciclo-hackaton",
+  "private_key_id": "ae6a9040933a8c21868c8161498a4de9f15c59d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDd+KMgehb1fKC\nUMNLgPkEO7ujN0ZxOI5BlE0HsKdLvDs/BCIFj5gwgv8Inr/uEioHp9Q0MTfPX5uJ\n+w/4Yew7XFEAfWyHAobK9ua108kfIcdtFqMylm843tttI6i3zZB5MQQgMx50Tww6\n4spDpErXVSlV7pf3ZyoY2m+l5KP/kfPDX/ZVl0OjXpW0elzu3H62FShiv4pBqc64\nG1k6WTpdmhTNHZ7waN8u249z3U6rszoevcfvetEIYsEMgRjO22bZY4Hi3XYUfy/S\nv/1NHkMI2PTLA3qTXy9+Rg2nEa0VZ5g9OYavbo1dU/XgF2NJX0iDSZn1XRvEP0PU\nO+L65A8TAgMBAAECggEABWALmJ+N6APNimxCiPxmXKM9eRlXbfYHLqIV+2TBOC6L\nib0V9NJkQsx0Mb5KOt3zzlTjW5gRSwbIoslTp00e3B1t+mlFWot+pDnL65FQxSYx\nplW3OsUZdxZLZG67M53xUu1x8DMkeEBTbsWDy5f9/62CchZNX+rnWA2egMP1bcN/\nKpiWw/Lz17lgUFjaboIxf3lRlUcoj6rIiBIiQU9SgUG4Im2Xmc78UwlCqyOyuZWp\nJleVz3jyGNcwFVYy4tBjMQ5sE7izGfTOFdRXNBx3G29uexii1ym5SzkySbj2sS6+\nSkcQFskJ6w5koT5vZPwBUgEi4najaPP/jW1KOg2fuQKBgQD0Q6NSd45Z98C44b4Z\neUk7MCg3lkcJldLknIJGtDKKfs3Wv5WSB+DbyiP4jmzXTXdZrOc2UGbAKYXrPy2K\n206vXYDOsYwI0MBLwH9xp3KmEH0NoLjqZ9wEeEqKQ4ZPV6Jpq1OvAClHxP8+nDoE\nkiziPfjW/dLUllPKOphK2g23bwKBgQDM3BMnNtrycCcE8tfS7w05zCbqsOvs/m84\nHPsRaOu00QtI6bBU0C+j4HjYjRb+s0QnPcW6hfEnmaxD7cl64vnziS3o86wbflb9\nm1NKjZj5SZdR01dFc9k9z0fraImEeKw6VB0E2WmX2ynGzMpUfD8rQy08ng97Fcx+\nUAX/dmZwnQKBgC5EuaUfXGmSUoEy0Y2FuedqQdP1tVMNfDstoke+TmyJhHgPJkfZ\nEjDP42xrnhZSaC8mX02cgToZI3LiLsBEtmzla0a7vujUkfhHaFyg+UiXiviP3zcX\noUd/ea8jB0f0M6GMgHd/slIT8L1tXlgLUFEyp/YhclQufYSrALn8/+glAoGAZ2m0\n9Xe4gOfimpnoHx/zojiPcKvM/P7XsBDZIMnBKq7YLn9hNv88/VHkTxSyBfMCtXh2\nZxkUSnRFxKi1q6YGnUyjc1QGjn5xdWZCXoEqNrVSgMjZ5kJ76LrJSGml+cxczLkH\nSRpjNng5F5TrkkiCLtmjbVUw5WZ0q1LEJFhlj/UCgYB5Mf5KbF4dBmMKlj6dy94q\nTjHyH4SWDLUwh1LcZpgiNrizCRzTdkQRmb8+WzhbwH5BPaTN01vJNxrbIRGn3fcz\ncbtP0J2e1wG2lFzrD43pKEqlzRl2b/47Yh9OEuOZVmXjpHyq8c093hWzG/HEDA0G\nqrZTxgos5+JsTrqWTsJwdg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-ai-model@re-ciclo-hackaton.iam.gserviceaccount.com",
+  "client_id": "110996731788037084367",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-ai-model%40re-ciclo-hackaton.iam.gserviceaccount.com"
+}

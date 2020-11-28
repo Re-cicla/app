@@ -3,18 +3,33 @@ import React from 'react';
 
 const ButtonWrapper = styled.button`
   /* Adapt the colors based on primary prop */
-  background: ${(props) => (props.primary ? 'palevioletred' : 'white')};
-  color: ${(props) => (props.primary ? 'white' : 'palevioletred')};
-
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  border: 2px solid palevioletred;
-  border-radius: 3px;
+  background-color: ${(props) => (props.color ? props.color : 'white')};
+  color: ${(props) => (props.color ? props.color : 'white')};
+  margin: 0.3em;
+  padding: 1em;
+  border: 2px solid ${(props) => (props.color ? props.color : 'white')};
+  border-radius: 1.8em;
 `;
 
-const Button = ({primary}) => {
-  return <ButtonWrapper primary={primary}> and hello</ButtonWrapper>;
+const SpanWrapper = styled.span`
+  color: ${(props) => (props.fill ? 'white' : 'black')};
+  font-size: 1.2rem;
+  font-family: Source Sans Pro;
+`;
+
+const Button = (props) => {
+  let btnColor = 'white';
+  if (props.color === 'yellow') {
+    btnColor = '#FEBE29';
+  } else if (props.color === 'green') {
+    btnColor = '#C6D3B4';
+  }
+
+  return (
+    <ButtonWrapper {...props} color={btnColor}>
+      <SpanWrapper fill={props.color}>{props.btnText}</SpanWrapper>
+    </ButtonWrapper>
+  );
 };
 
 export default Button;

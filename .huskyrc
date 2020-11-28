@@ -1,0 +1,5 @@
+  "husky": {
+    "hooks": {
+      "pre-push": "eslint --fix src/**/*.js && npm build"
+    }
+  }

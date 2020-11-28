@@ -6,6 +6,6 @@ export default function SearchPage() {
   const match = useRouteMatch('hello');
 
   return (<div>
-    <button>{match}</button>
+    <button>{match} and hello</button>
   </div>);
 }

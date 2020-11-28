@@ -3,8 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dcb6a0d-d3e1-4232-a2d8-8eda4dcc7590" name="Default Changelist" comment="" />
+    <list default="true" id="7dcb6a0d-d3e1-4232-a2d8-8eda4dcc7590" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/search/search-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/search/search-page.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kskASPSqkYNktpGFxIPS7gF9f1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,19 +54,96 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="npm install eslint --save-dev " />
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dcb6a0d-d3e1-4232-a2d8-8eda4dcc7590" name="Default Changelist" comment="" />
+      <created>1606518923943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606518923943</updated>
+      <workItem from="1606518927170" duration="60000" />
+      <workItem from="1606518998144" duration="1610000" />
+      <workItem from="1606552962384" duration="232000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="703" y="402" key="#ESLint" timestamp="1606521179351">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="703" y="402" key="#ESLint/0.25.1680.962@0.25.1680.962" timestamp="1606521179351" />
+    <state width="1680" height="264" key="GridCell.Tab.0.bottom" timestamp="1606521213235">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state width="1680" height="264" key="GridCell.Tab.0.bottom/0.25.1680.962@0.25.1680.962" timestamp="1606521213235" />
+    <state width="1680" height="264" key="GridCell.Tab.0.center" timestamp="1606521213234">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state width="1680" height="264" key="GridCell.Tab.0.center/0.25.1680.962@0.25.1680.962" timestamp="1606521213234" />
+    <state width="1680" height="264" key="GridCell.Tab.0.left" timestamp="1606521213234">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state width="1680" height="264" key="GridCell.Tab.0.left/0.25.1680.962@0.25.1680.962" timestamp="1606521213234" />
+    <state width="1680" height="264" key="GridCell.Tab.0.right" timestamp="1606521213234">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state width="1680" height="264" key="GridCell.Tab.0.right/0.25.1680.962@0.25.1680.962" timestamp="1606521213234" />
+    <state x="349" y="142" key="SettingsEditor" timestamp="1606521164999">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="349" y="142" key="SettingsEditor/0.25.1680.962@0.25.1680.962" timestamp="1606521164999" />
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1606521159384">
+      <screen x="0" y="25" width="1680" height="962" />
+    </state>
+    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup/0.25.1680.962@0.25.1680.962" timestamp="1606521159384" />
   </component>
 </project>

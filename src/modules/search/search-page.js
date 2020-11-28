@@ -1,7 +1,9 @@
-export default function SearchPage(){
+import {useRouteMatch} from 'react-router-dom';
 
+export default function SearchPage() {
+  const match = useRouteMatch('hello');
 
-    return (<div>
-        <button>Hello</button>
-    </div>);
+  return (<div>
+    <button>{match}</button>
+  </div>);
 }

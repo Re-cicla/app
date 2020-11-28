@@ -13,7 +13,7 @@ const ButtonWrapper = styled.button`
   border-radius: 3px;
 `;
 
-const Button = ({ primary }) => {
+const Button = ({primary}) => {
   return <ButtonWrapper primary={primary}> and hello</ButtonWrapper>;
 };
 

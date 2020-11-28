@@ -1,5 +1,6 @@
-  "husky": {
+{
     "hooks": {
+      "pre-commit" : "npx prettier --write ."
       "pre-push": "npm build"
     }
-  }
+}

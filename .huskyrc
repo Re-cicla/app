@@ -1,6 +1,5 @@
 {
-    "hooks": {
-      "pre-commit" : "npx prettier --write ."
-      "pre-push": "npm build"
-    }
+  "hooks": {
+    "pre-commit": "npm build"
+  }
 }

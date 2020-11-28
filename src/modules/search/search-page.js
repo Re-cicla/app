@@ -5,7 +5,11 @@ import React from 'react';
 export default function SearchPage() {
   const match = useRouteMatch('hello');
 
+  // eslint-disable-next-line require-jsdoc
+  function onClick() {
+    alert('hola cristina, apaga la radio porfa');
+  }
   return (<div>
-    <button>{match} and hello</button>
+    <button onClick={onClick}>{match} and hello</button>
   </div>);
 }

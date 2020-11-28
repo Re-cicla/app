@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eslinter": "eslint --fix --ext .js,.jsx .",
-    "formater": "npx prettier --write ."
+    "format": "npx prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -49,11 +49,12 @@
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^4.3.0",
+    "husky": "^5.0.4",
     "prettier": "2.2.1"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "npm run eslinter && npm run format",
       "pre-push": "npm run build"
     }
   }

@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "../../common/button";
-import styled from "styled-components";
+import React from 'react';
+import Button from '../../common/button';
+import styled from 'styled-components';
 
 const HorizontalButtonsWrapper = styled.section`
   height: 100vh;

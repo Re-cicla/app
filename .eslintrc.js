@@ -3,19 +3,19 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["plugin:react/recommended", "google"],
+  extends: ['plugin:react/recommended', 'google'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 12,
-    sourceType: "module",
+    sourceType: 'module',
   },
-  plugins: ["react", "react-hooks"],
+  plugins: ['react', 'react-hooks'],
   rules: {
-    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
-    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
-    "require-jsdoc": 0,
-    "react/prop-types": 0,
+    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
+    'require-jsdoc': 0,
+    'react/prop-types': 0,
   },
 };

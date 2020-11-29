@@ -19,5 +19,6 @@ module.exports = {
     'require-jsdoc': 0,
     'react/prop-types': 0,
     'space-before-function-paren': 0,
+    'spaced-line-comment': 0,
   },
 };

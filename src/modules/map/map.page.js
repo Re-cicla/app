@@ -1,18 +1,32 @@
 import React from 'react';
-import Button from '../../common/button';
-import styled from 'styled-components';
+// import {MapContainer, useMap} from 'react-leaflet';
+// import {useRequest} from 'ahooks';
+// import {MapContainer, TileLayer, Marker, Popup} from 'leaflet';
+// import axios from 'axios';
 
-const HorizontalButtonsWrapper = styled.section`
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+import {Map, Layers, layer} from 'react-openlayers';
+import * as ol from 'openlayers';
 
 export default function MapPage() {
+  /*
+    const {data, error, loading} = useRequest(
+      'http://localhost:8080/containers',
+      {
+        requestMethod: (param: any) => axios(param),
+      },
+    );
+
+    console.log(data);
+    console.log(error);
+    console.log(loading);
+       */
+
+  // const position = [39.975667, -0.049358];
   return (
-    <HorizontalButtonsWrapper>
-      <Button primary>Im a map</Button>
-    </HorizontalButtonsWrapper>
+    <Map>
+      <Layers>
+        <layer.Tile source={new ol.source.Stamen({layer: 'watercolor'})} />
+      </Layers>
+    </Map>
   );
 }

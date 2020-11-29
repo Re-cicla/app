@@ -1,6 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
+import {useRef} from 'react';
 
 const CameraIconWrapper = styled.div`
   margin: 0 auto;
@@ -14,6 +15,8 @@ const CameraIconWrapper = styled.div`
 `;
 
 export default function CameraButton() {
+  const fileRef = useRef();
+
   const performRequest = (value) => {
     const requestOptions = {
       method: 'POST',
@@ -42,14 +45,22 @@ export default function CameraButton() {
     }
   };
 
+  const triggerClick = () => {
+    fileRef.current.click();
+  };
+
+
   return (
-    <CameraIconWrapper>
+    <CameraIconWrapper onClick={triggerClick}>
       <FontAwesomeIcon icon={['fas', 'camera']} size='3x' />
       <input
+        id='selectedImage'
+        hidden
         type='file'
         accept='image/*'
         capture='camera'
-        onChangeCapture={(event) => onImageChange(event)}
+        onChange={(event) => onImageChange(event)}
+        ref={fileRef}
       />
     </CameraIconWrapper>
   );

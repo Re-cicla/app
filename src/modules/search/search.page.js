@@ -50,10 +50,10 @@ export default function SearchPage() {
       <TitleWrapper>¿Qué quieres reciclar hoy?</TitleWrapper>
       <HorizontalButtonsWrapper>
         <Button color={'yellow'} btnText={'buscador'}></Button>
-        <Button color={'yellow'} btnText={'contenedores'}></Button>
+        <Button disabled color={'yellow'} btnText={'contenedores'}></Button>
       </HorizontalButtonsWrapper>
       <SubtitleWrapper>
-        ¿No sabes donde tirarlo? hagámosle una foto
+        ¿No sabes donde tirarlo? Hagámosle una foto
       </SubtitleWrapper>
       <CameraButton />
     </PageWrapper>

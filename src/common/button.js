@@ -25,6 +25,10 @@ const Button = (props) => {
     btnColor = '#C6D3B4';
   }
 
+  if (props.disabled) {
+    btnColor = 'gray';
+  }
+
   return (
     <ButtonWrapper {...props} color={btnColor}>
       <SpanWrapper fill={props.color}>{props.btnText}</SpanWrapper>
